@@ -11,6 +11,7 @@ import MainPage from "./components/mainpage";
 import "./app.scss";
 
 const theme = createMuiTheme({
+  test: {},
   palette: {
     primary: {
       main: "#f44336"
