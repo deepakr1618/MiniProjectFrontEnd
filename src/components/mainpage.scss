@@ -1,0 +1,47 @@
+.mainpage-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  .title{
+    align-self: flex-start;
+  }
+  .inner-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    padding: 45px;
+    border-radius: 12px;
+    background:white;
+    box-shadow: 2px 2px 12px 5px rgba(0, 0, 0, 0.068);
+    .option{
+      width:100%;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 10px auto;
+      .radioGroup{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-direction: row;
+      }
+      .answer{
+        max-width:100%;
+        min-height: 200px;
+        border: 2px solid rgba(48, 48, 48, 0.192);
+        border-radius: 5px;
+        &:focus{
+          border: 2px solid #e91e63;
+          outline:none;
+        }
+      }
+      textarea{
+        padding:10px;
+      }
+    }
+  }
+}
